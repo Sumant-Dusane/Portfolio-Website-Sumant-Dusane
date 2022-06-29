@@ -271,8 +271,9 @@ body::-webkit-scrollbar {
     }
         
             .services .serv-content .card{
-                width: calc(33% - 30px);
+                width: calc(50% - 33px);
                 background-color: #222;
+                margin: 10px;
                 padding: 20px 25px;
                 text-align: center;
                 border-radius: 5px;
@@ -301,6 +302,11 @@ body::-webkit-scrollbar {
                     font-size: 25px;
                     font-weight: bold;
                     margin: 10px 0 7px 0;
+                }
+                /* .teams .carousel .card img */
+                .services .serv-content .card img{
+                    width: 50px;
+                    height: auto;
                 }
                 .services .serv-content .card .box{
                     transition: all ease-in-out 200ms;
@@ -359,6 +365,9 @@ body::-webkit-scrollbar {
                 top: 0;
                 background-color: coral;
             }
+                .skills .skills-content .right .android-dev::before{
+                    width: 50%;
+                }
                 .skills .skills-content .right .photo-editing::before{
                     width: 100%;
                 }
